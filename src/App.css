@@ -1,38 +1,67 @@
 .App {
   text-align: center;
+  max-width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+  
+
+ }
+h1{
+  background-color: aqua;
+  padding: 20px;
+  color: blueviolet;
+}
+button{
+  margin: 5px;
+  padding: 10px 20px; border: 1px solid;
+  border-radius: 5px;
+
+}
+.b1{
+  background-color: yellow;
+}
+.b1:hover{
+  background-color: blue;
+  color: white
+}
+.b2{
+  background-color: blue
+}
+.b2:hover{
+  color: white
+}
+.b3{
+  background-color:red
+}
+.b3:hover{
+  color: white
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.tableclass{
+  width:calc(100% - 40px);
+  margin: 20px;
+  border-collapse: collapse;
 }
+.tableclass th,
+.tableclass td{
+  padding: 12px 15px;
+  border: 1px solid black;
+  
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.tableclass th{
+  background-color: lightblue;
 }
-
-.App-link {
-  color: #61dafb;
+.listul{
+  list-style-type: none;
+  padding: 10px;
+  margin: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.listul li{
+  padding: 15px;
+  border: 1px solid salmon;
+  background-color:skyblue
+}
+.listul li:hover{
+  background-color: aquamarine;
 }
